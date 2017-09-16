@@ -1,15 +1,5 @@
 import React, { Component } from 'react';
-import from ReactDOM;
-
-function ListItem(props) {
-  return (
-    <div className="container">
-      <div className="col-md-4" id="box" onClick={props.onClick}>
-      {props.item}
-      </div>
-    </div>
-  );
-}
+import ReactDOM, from ReactDOM;
 
 class ShoppingList extends React.Component {
   constructor() {
@@ -49,6 +39,16 @@ class ShoppingList extends React.Component {
       </div>
     );
   }
+}
+
+function ListItem(props) {
+  return (
+    <div className="container">
+      <div className="col-md-4" id="box" onClick={props.onClick}>
+      {props.item}
+      </div>
+    </div>
+  );
 }
 
 ReactDOM.render(
