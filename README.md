@@ -1,4 +1,4 @@
-This is a simple shopping list done in React.
+This is a simple shopping list done in React. Still needs to be debugged.
 
 You can just simply fork this.
 
