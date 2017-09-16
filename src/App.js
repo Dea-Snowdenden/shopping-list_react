@@ -3,9 +3,11 @@ import from ReactDOM;
 
 function ListItem(props) {
   return (
-    <li onClick={props.onClick}>
+    <div className="container">
+      <div className="col-md-4" id="box" onClick={props.onClick}>
       {props.item}
-    </li>
+      </div>
+    </div>
   );
 }
 
@@ -13,7 +15,7 @@ class ShoppingList extends React.Component {
   constructor() {
     super();
     this.state = {
-      list: ['code', 'watch GOT', 'party']
+      list: ['laptop', 'roses', 'pizza']
     };
   }
   
