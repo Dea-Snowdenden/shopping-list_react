@@ -8,4 +8,4 @@ Run NPM start. Then you are good to go!
 
 Happy hacking everyone! 
 
-![alt-text](react-to-do-list.png)
+![alt-text](react2do.png)
